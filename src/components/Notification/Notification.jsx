@@ -1,3 +1,3 @@
-const { Message } = require('./Notification.styled')
-const Notification = ({ massege }) => <Message>{massege}</Message>;
+const { Message } = require('./Notification.styled');
+const Notification = ({ message }) => <Message>{message}</Message>;
 export default Notification;
